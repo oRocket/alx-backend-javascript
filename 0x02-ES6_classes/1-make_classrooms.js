@@ -6,4 +6,5 @@ function initializeRooms() {
   const room3 = new ClassRoom(34);
   return [room1, room2, room3];
 }
+
 export default initializeRooms;
