@@ -1,5 +1,4 @@
-import { uploadPhoto, createUser } from "./utils.js"; // Assuming utils.js is in the same directory
-
+import { uploadPhoto, createUser } from "./utils.js";
 export default async function asyncUploadUser(photoData, userData) {
   try {
     const photoResponse = await uploadPhoto(photoData);
