@@ -24,10 +24,11 @@ export default class Pricing {
 
   displayFullPrice() {
     const { _name, _code } = this._currency;
-      return `${this._amount} ${_name} (${_code})`;
+    return `${this._amount} ${_name} (${_code})`;
   }
 
   static convertPrice(amount, conversionRate) {
     return amount * conversionRate;
   }
+
 }
